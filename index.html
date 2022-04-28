@@ -5,17 +5,34 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Admin Dashboard</title>
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.css" integrity="sha512-1hsteeq9xTM5CX6NsXiJu3Y/g+tj+IIwtZMtTisemEv3hx+S9ngaW4nryrNcPM4xGzINcKbwUJtojslX2KG+DQ==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.css"
+      integrity="sha512-1hsteeq9xTM5CX6NsXiJu3Y/g+tj+IIwtZMtTisemEv3hx+S9ngaW4nryrNcPM4xGzINcKbwUJtojslX2KG+DQ=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
     <script src="https://cdn.tailwindcss.com"></script>
-    <link rel="stylesheet" href="css/style.css" />    
+    <link rel="stylesheet" href="css/style.css" />
+    <!-- <a href="https://www.flaticon.es/iconos-gratis/persona" title="persona iconos">Persona iconos creados por Freepik - Flaticon</a> -->
   </head>
   <body class="container-body">
-    <header class="header bg-teal-400">
-      <div class="search-area"><input type="search" name="" id="" /></div>
-
-      <div class="user-profile"><p>Leandro Fernandez</p></div>
+    <header class="header bg-cyan-700">
+      <div class="search-area">
+        <i class="fa-solid fa-magnifying-glass pr-5"></i>
+        <input type="search" name="" id="" />
+      </div>
+      <div class="user-profile">
+        <i class="fa-solid fa-bell-concierge"></i>
+        <img src="images/hombre.png" alt="user avatar" class="user-avatar" />
+        <a>Leandro Fernandez</a>
+      </div>
       <div class="user-presentation">
-        <p>Leandro Fernandez</p>
+        <img src="images/hombre.png" alt="user avatar" />
+        <div>
+          <sub>Hi there,</sub>
+          <p>Leandro Fernandez (@lfer)</p>
+        </div>
       </div>
       <div class="group-buttons">
         <button>New</button>
@@ -23,25 +40,37 @@
         <button>Share</button>
       </div>
     </header>
-    <aside class="aside bg-cyan-700">
+    <aside class="aside bg-cyan-900">
       <section>
-        <a href="#" class="sitename"><i class="fa-solid fa-gauge-high"></i> Dashboard</a>
+        <a href="#" class="sitename"
+          ><i class="fa-solid fa-gauge-high"></i> Dashboard</a
+        >
       </section>
       <ul>
         <li><i class="fa-solid fa-house"></i><a href="#"> Home</a></li>
         <li><i class="fa-solid fa-user"></i><a href="#"> Profile</a></li>
-        <li><i class="fa-solid fa-square-envelope"></i><a href="#"> Messages</a></li>
-        <li><i class="fa-solid fa-clock-rotate-left"></i><a href="#"> History</a></li>
+        <li>
+          <i class="fa-solid fa-square-envelope"></i><a href="#"> Messages</a>
+        </li>
+        <li>
+          <i class="fa-solid fa-clock-rotate-left"></i><a href="#"> History</a>
+        </li>
         <li><i class="fa-solid fa-list-check"></i><a href="#"> Tasks</a></li>
-        <li><i class="fa-solid fa-users-line"></i><a href="#"> Communities</a></li>
+        <li>
+          <i class="fa-solid fa-users-line"></i><a href="#"> Communities</a>
+        </li>
       </ul>
       <ul>
         <li><i class="fa-solid fa-gears"></i><a href="#"> Settings</a></li>
-        <li><i class="fa-solid fa-circle-question"></i><a href="#"> Support</a></li>
-        <li><i class="fa-solid fa-shield-halved"></i><a href="#"> Privacy</a></li>
+        <li>
+          <i class="fa-solid fa-circle-question"></i><a href="#"> Support</a>
+        </li>
+        <li>
+          <i class="fa-solid fa-shield-halved"></i><a href="#"> Privacy</a>
+        </li>
       </ul>
     </aside>
-    <main class="main bg-cyan-50">
+    <main class="main bg-gray-50">
       <section class="card-section">
         <h2 class="section-title">Your projects</h2>
         <div class="group-card">
