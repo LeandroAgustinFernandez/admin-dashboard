@@ -54,9 +54,15 @@ input[type='search']{
 ul {
   list-style: none;
 }
-ul > li {
+.aside ul > li {
   padding: .5rem 0;
+  color: white;
+  display: grid;
+  grid-template-columns: 25px 1fr;
+  align-items: center;
+  gap: 10px;
 }
+
 .main {
   background-color: skyblue;
   grid-area: main;
